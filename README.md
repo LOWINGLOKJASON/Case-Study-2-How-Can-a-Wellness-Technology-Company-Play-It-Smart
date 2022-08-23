@@ -644,7 +644,7 @@ ggplot(data= sleep_day, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_poin
   labs(x = "Total Minutes Asleep", y = "Total Time In Bed") + ggtitle("Total Minutes Asleep to Total Time In Bed")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
+![Image](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
 
 *Total minutes asleep was highly positive correlated to total time in
 bed while some outliers existed.*
