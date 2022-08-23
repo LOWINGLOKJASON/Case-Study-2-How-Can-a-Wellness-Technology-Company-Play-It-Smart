@@ -1,6 +1,6 @@
 Case Study 2 - How Can a Wellness Technology Company Play It Smart
 
-![image](https://user-images.githubusercontent.com/100983196/186113006-eb09d8de-de23-4f1c-a762-4e37b767b544.png)
+    ![image](https://user-images.githubusercontent.com/100983196/186113006-eb09d8de-de23-4f1c-a762-4e37b767b544.png)
 
 ================
 
