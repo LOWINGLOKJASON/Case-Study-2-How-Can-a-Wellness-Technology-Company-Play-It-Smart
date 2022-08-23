@@ -662,7 +662,7 @@ ggplot(data= weight_info, aes(x=WeightKg, y=BMI)) + geom_point() +
   labs(x = "Weight in Kg", y = "BMI") + ggtitle("Weight to BMI")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110145-19aff396-fe33-4933-a085-d8fea347ccc5.png)
 
 *They were not closely related, BMI may be affected by many factors such
 as height.*
