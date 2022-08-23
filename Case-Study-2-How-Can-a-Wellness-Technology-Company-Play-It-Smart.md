@@ -1,6 +1,7 @@
 Case Study 2 - How Can a Wellness Technology Company Play It Smart
 ================
 Author: Jason LO
+
 Latest Date of Update: 2022-08-23
 
 ## **Introduction**
@@ -568,8 +569,7 @@ BMI was 47.54 kg/m².**
 ggplot(ActDay, aes(x=weekday, fill=weekday)) + geom_bar() + 
   labs(x = "Weekday", y = "Number of Usage") + ggtitle("Usage Frequency of FitBit Fitness Tracker in Daily Activity")
 ```
-
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110704-ab0e659f-99d3-4633-af24-5e772ff7cf3c.png)
 
 *It recorded a high usage number of FitBit Fitness Tracker on Tuesday,
 Wednesday and Thursday, with around 150 users per day.*
@@ -584,7 +584,7 @@ ggplot(SlpDay, aes(x=weekday, fill=weekday)) + geom_bar() +
   labs(x = "Weekday", y = "Number of Usage") + ggtitle("Usage Frequency of FitBit Fitness Tracker During Sleep Time")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110674-faa495d3-331e-4a98-8c16-43adf15562a1.png)
 
 *There were sufficiently high usage numbers of FitBit Fitness Tracker on
 Tuesday, Wednesday and Thursday, only these three days were over 60
@@ -606,7 +606,7 @@ ggplot(data= daily_activity, aes(x=TotalSteps, y=Calories)) + geom_point() +
   labs(x = "TotalSteps", y = "Calories Consumed") + ggtitle("Total Steps to Calories Consumption")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110588-622993f4-7072-4987-8415-5c239da22e23.png)
 
 *The outliers are mainly located in the bottom left corner, showing that
 0 total steps but some calories were consumed, maybe owing to other
@@ -625,7 +625,7 @@ ggplot(data= daily_activity) + geom_point(aes(x=VeryActiveMinutes, y=Calories, c
   labs(x = "Active Minutes", y = "Calories") + ggtitle("Active Minutes to Calories")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110527-1c9817c7-8464-451a-86dd-4e136c140368.png)
 
 *Very active minutes and fairly active minutes had similar results,
 users took shorter time when having moderate to high intensive
@@ -644,7 +644,7 @@ ggplot(data= sleep_day, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_poin
   labs(x = "Total Minutes Asleep", y = "Total Time In Bed") + ggtitle("Total Minutes Asleep to Total Time In Bed")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110427-7035a044-c915-498e-bef6-94dcdc3255aa.png)
 
 *Total minutes asleep was highly positive correlated to total time in
 bed while some outliers existed.*
@@ -662,7 +662,7 @@ ggplot(data= weight_info, aes(x=WeightKg, y=BMI)) + geom_point() +
   labs(x = "Weight in Kg", y = "BMI") + ggtitle("Weight to BMI")
 ```
 
-![](Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/100983196/186110145-19aff396-fe33-4933-a085-d8fea347ccc5.png)
 
 *They were not closely related, BMI may be affected by many factors such
 as height.*
