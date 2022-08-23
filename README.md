@@ -1,6 +1,7 @@
 Case Study 2 - How Can a Wellness Technology Company Play It Smart
 ================
 Author: Jason LO
+
 Latest Date of Update: 2022-08-23
 
 ## **Introduction**
